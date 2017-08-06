@@ -32,7 +32,7 @@ class AddressBookTest extends TestCase
         $this->assertEquals('', $this->addressBook->getName());
 
         $this->addressBook->setName('My Book');
-        $this->assertEquals('My Book', $this->addressBook->getName());
+        $this->assertEquals('My Book1', $this->addressBook->getName());
     }
 
     /**
